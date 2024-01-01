@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-size:14px;
+   width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #00ffff 13%, #cc66ff 77%);
+    background-size: cover;
+    position: center;
+}
+.container{
+    background: white;
+    width: 500px;
+    padding: 25px;
+    margin: 50px auto 0px;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(255, 255, 255, 0.5);
+
+
+}
+.container h2{
+    font-size: 24px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+
+}
+.input-name{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+
+}
+.lock{
+    padding: 8px;
+
+
+}
+.name{
+    width: 45%;
+    padding: 8px 0px 8px 40px;
+
+}
+.input-name span{
+    margin-left: 30px;
+}
+.text-name{
+    width: 100%;
+    padding: 8px 0px 8px 40px;
+
+}
+.input-name i{
+    position: absolute;
+    font-size: 18px;
+    color: black;
+    border-right: 1px solid #cccccc;
+
+}
+.email{
+    padding: 8px;
+
+}
+.text-name, .name {
+    border: 1px solid #cccccc;
+    outline: none;
+    -webkit-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    
+
+}
+.text-name:hover, .name:hover{
+    background-color: #fafafa;
+}
+.text-name:focus, .name:focus{
+    border: 1px solid blue;
+}
+.radio-button{
+    margin-right: 4px;
+}
+.country{
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    padding: 0px 15px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    color: #7b7b7b;
+    border-radius: 2px;
+    background-color: white;
+    -webkit-appearance:!important ;
+    appearance: none;
+    transition: all 0.2s ease;
+}
+.country::ms-expend{
+    display: none;
+
+}
+.country:hover, .country:focus 
+{color: blue;
+    background-color: #fafafa;
+    border-color: black;
+    outline-style: none;
+}
+.button{
+    background-color: blue;
+    color: white;
+    height: 35px;
+    line-height: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius:25px ;
+    margin-bottom: 10px;
+    align-content: center;
+
+
+}
+.button:hover{
+    background: orange;
+}
+
+
